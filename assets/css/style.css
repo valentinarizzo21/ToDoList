@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.toDo{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 30px 20px 60px;
+    border-radius: 10px;
+}
+
+.toDo h1 {
+    margin-bottom: 20px;
+}
+
+.riga{
+    
+    padding-left: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+input{
+    display: inline;
+    width: 70%;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 100;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: bisque;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 90%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+
+
+li{
+    margin: 10px 1px;
+    background-color: #dbd6d6;
+}
+
